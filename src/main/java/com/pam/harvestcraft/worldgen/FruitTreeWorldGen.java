@@ -39,6 +39,10 @@ public class FruitTreeWorldGen implements IWorldGenerator {
         if (BiomeDictionary.hasType(biome, BiomeDictionary.Type.END)) {
             return;
         }
+        
+        if (BiomeDictionary.hasType(biome, BiomeDictionary.Type.MINING BIOME)) {
+            return;
+        }
 
         if ((BiomeDictionary.hasType(biome, BiomeDictionary.Type.FOREST))
                 && (!BiomeDictionary.hasType(biome, BiomeDictionary.Type.COLD))
